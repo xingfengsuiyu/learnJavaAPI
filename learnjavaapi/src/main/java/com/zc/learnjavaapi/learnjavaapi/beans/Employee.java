@@ -2,14 +2,12 @@ package com.zc.learnjavaapi.learnjavaapi.beans;
 
 public class Employee {
 
-    public static  Employee employee = new Employee();
-    public static int age = 18;
 
     private String name;
     private byte addr;
     private int salary;
 
-    private Employee() {
+    public Employee() {
 
     }
 
